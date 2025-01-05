@@ -1,0 +1,73 @@
+/* Art Deco Base Styles */
+body {
+    font-family: 'Futura', 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    background-color: #f8f4e3;
+}
+
+/* Header Styles */
+.art-deco-header {
+    background: linear-gradient(135deg, #d4af37, #000);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 5px solid #d4af37;
+}
+
+.art-deco-header h1 {
+    font-size: 3rem;
+    letter-spacing: 0.1em;
+    margin: 0;
+}
+
+.art-deco-header p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0 0;
+}
+
+/* Navigation Styles */
+.art-deco-nav {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #000;
+}
+
+.art-deco-nav a {
+    color: #d4af37;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    transition: color 0.3s ease;
+}
+
+.art-deco-nav a:hover {
+    color: white;
+}
+
+/* Section Styles */
+.art-deco-section {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid #d4af37;
+}
+
+.art-deco-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #d4af37;
+}
+
+/* Footer Styles */
+.art-deco-footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #000;
+    color: white;
+    font-size: 0.9rem;
+    border-top: 5px solid #d4af37;
+}
